@@ -107,10 +107,11 @@ body {
   color: blue;
   font-size: 1.2rem;
 }
-.message {
+.message{
 	height: 100px;
 	font-family: Arial;
 }
+
 
 .btn {
 	color: white;
