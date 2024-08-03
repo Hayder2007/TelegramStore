@@ -4,10 +4,23 @@
     font-family: serif;
     box-sizing: border-box;
 } 
-body{
-    height: 100vh;
-    background: linear-gradient(rgb(2, 113, 204) , rgb(56, 199, 255) , rgb(0, 0, 0) );
-    background-size: 100% 100%;
+body {
+	background: linear-gradient(-45deg, rgb(2, 123, 223) , rgb(27, 190, 255) , blue);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 #header{
     width: 100%;
